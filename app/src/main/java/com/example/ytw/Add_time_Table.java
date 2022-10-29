@@ -78,8 +78,6 @@ public class Add_time_Table extends AppCompatActivity {
                                 Toast.makeText(Add_time_Table.this, "Module Added", Toast.LENGTH_SHORT).show();
                             }
                         });
-
-
             }
         });
 
