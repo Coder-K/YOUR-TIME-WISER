@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    tools:context=".Add_time_Table">
+
+    <TextView
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add the module Name"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        android:id="@+id/txt1"
+        android:layout_alignStart="@+id/ModuleName"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Module Name:"
+        android:background="@drawable/custome_input"
+        android:minWidth="245dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:paddingStart="8dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/ModuleName"
+        android:minHeight="8dp"
+        android:layout_below="@+id/txt1"/>
+
+ <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter the Venue"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        android:id="@+id/txt2"
+        android:layout_below="@+id/ModuleName"
+        android:layout_alignStart="@+id/ModuleName"
+        android:layout_marginTop="15dp"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Venue:"
+        android:background="@drawable/custome_input"
+        android:minWidth="245dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:paddingStart="8dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/Venue"
+        android:minHeight="8dp"
+        android:layout_below="@+id/txt2"/>
+
+ <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Day Of The Week"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        android:id="@+id/txt4"
+        android:layout_below="@+id/Venue"
+        android:layout_alignStart="@+id/ModuleName"
+        android:layout_marginTop="15dp"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custome_input"
+        android:minWidth="245dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:paddingStart="8dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/DayOfWeek"
+        android:minHeight="20dp"
+        android:hint="Day"
+        android:layout_below="@+id/txt4"/>
+
+ <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The time of the class"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        android:id="@+id/txt3"
+        android:layout_below="@+id/DayOfWeek"
+        android:layout_alignStart="@+id/Venue"
+        android:layout_marginTop="15dp"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Time:"
+        android:background="@drawable/custome_input"
+        android:minWidth="245dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:paddingStart="8dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/txt_time"
+        android:minHeight="8dp"
+        android:layout_below="@+id/txt3"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custombtn"
+        android:layout_below="@+id/txt_time"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:minWidth="230dp"
+        android:id="@+id/submitBtn"
+        android:text="Submit"
+        />
+
+
+</RelativeLayout>
