@@ -49,7 +49,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/StudentEmail"
-        android:text="Enter your Student Number"
+        android:text="Enter your Password"
         android:id="@+id/txt5"
         android:layout_marginTop="10dp"
         android:textSize="16dp"
@@ -65,23 +65,23 @@
         android:layout_marginTop="1dp"
         android:background="@drawable/custome_input"
         android:minWidth="245dp"
-        android:hint="Student Number  :"
+        android:hint="Password  :"
         android:padding="10dp"
-        android:id="@+id/studentNumber"
+        android:id="@+id/password"
         />
 
 
     <TextView
+        android:id="@+id/txt2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/studentNumber"
-        android:text="Enter your Student Email"
-        android:id="@+id/txt2"
-        android:layout_marginTop="20dp"
-        android:textSize="16dp"
-        android:layout_centerVertical="true"
+        android:layout_below="@+id/password"
         android:layout_alignLeft="@+id/StudentEmail"
-        android:textColor="@color/white"/>
+        android:layout_centerVertical="true"
+        android:layout_marginTop="20dp"
+        android:text="Confirm your  Password"
+        android:textColor="@color/white"
+        android:textSize="16dp" />
 
 
     <EditText
@@ -92,9 +92,10 @@
         android:layout_marginTop="1dp"
         android:background="@drawable/custome_input"
         android:minWidth="245dp"
-        android:hint="Student Password :"
+        android:hint="confirm Password :"
         android:padding="10dp"
         android:id="@+id/studentPassword"
+        android:inputType="textPassword"
 
         />
 
@@ -130,7 +131,7 @@
         android:textColor="#EA0404"
         android:textStyle="bold"
         android:layout_below="@id/txt3"
-        android:id="@+id/forgotPassword"
+        android:id="@+id/Login"
         android:clickable="true"
         android:layout_marginStart="16dp"/>
 
