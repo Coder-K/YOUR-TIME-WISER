@@ -117,7 +117,7 @@
         android:textColor="#EA0404"
         android:textStyle="bold"
         android:layout_below="@id/txt3"
-        android:id="@+id/forgotPassword"
+        android:id="@+id/Register"
         android:clickable="true"
         android:layout_marginStart="16dp"/>
 
