@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "19041510591",
+    "project_id": "your-time-wisely",
+    "storage_bucket": "your-time-wisely.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:19041510591:android:d28fc9457c94c2947c920a",
+        "android_client_info": {
+          "package_name": "com.example.ytw"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "19041510591-qoi3d76rm4slmuci297iv1fled9dh5k4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7WczABHBrJmsC3bKjfDHh7qUG9bNkZ4k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "19041510591-qoi3d76rm4slmuci297iv1fled9dh5k4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
